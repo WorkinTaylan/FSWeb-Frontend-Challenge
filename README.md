@@ -27,9 +27,9 @@ Workintech programını tamamladığında şirketler yaptığın bu projeye de b
 [Tasarımlar](https://www.figma.com/file/KlZDcmdseABJe9KHsPJ8lt/s12-design1?node-id=0%3A1) linkinde 3 farklı tasarım var. 
 Hangisini beğendi isen onu kullanabilirsin.
 
-- [ ] Tasarımdaki her bir bölüm için ayrı bir component oluşturun.
-- [ ] Her component'in style'ını ayarlayın
-- [ ] Responsive tasarım oluşturun
+- [*] Tasarımdaki her bir bölüm için ayrı bir component oluşturun.
+- [*] Her component'in style'ını ayarlayın
+- [*] Responsive tasarım oluşturun
 
 !: Farklı cihaz boyutları için tasarımda biraz değişiklik yapmak isteyebilirsin.
 
@@ -39,6 +39,6 @@ Hangisini beğendi isen onu kullanabilirsin.
 
 Projenizde hünerlerini göstermek için ekstra yapabileceklerin.
 
-- [ ] İletişim bölümünde form yapabilirsin.
-- [ ] Form validasyonu 
-- [ ] Formu şimdilik kendinize email olarak göndertebilirsiniz. (mailto: linki oluşturmak işine yarayacaktır. Bu [kaynaktan](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html) veya [buradan](https://www.webbilim.com/e-posta-link-mailto-baglanti-linki-nasil-olusturulur) nasıl kullanıldığını öğrenebilirsin. 
+- [*] İletişim bölümünde form yapabilirsin.
+- [*] Form validasyonu 
+- [*] Formu şimdilik kendinize email olarak göndertebilirsiniz. (mailto: linki oluşturmak işine yarayacaktır. Bu [kaynaktan](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html) veya [buradan](https://www.webbilim.com/e-posta-link-mailto-baglanti-linki-nasil-olusturulur) nasıl kullanıldığını öğrenebilirsin. 
