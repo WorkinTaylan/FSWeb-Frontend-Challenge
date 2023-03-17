@@ -70,7 +70,7 @@ function Project(){
                     <p className='text-base'>{proj.paragraph}</p>
                     <div className="flex flex-wrap gap-1 text-white">
                         {proj.language.map((lang) =>
-                        <h6 key={lang} className="flex flex-row items-start border border-solid border-blue-700 rounded-full px-1 md:px-3 md:py-1 bg-[#4731D3]">{lang}</h6>
+                        <h6 key={lang} className="flex flex-row items-start border border-solid border-blue-700 rounded-full px-1 md:px-2 md:py-1 bg-[#4731D3]">{lang}</h6>
                         )}
                     </div>
                     <nav className="flex flex-row md:gap-6 underline items-start gap-3 text-base font-medium  text-[#120B39]">
