@@ -3,23 +3,13 @@
     margin: 0;
 }
 .header {
-    width:100%;
+    max-width:100% ;
+    height: 20%;
     background: linear-gradient(
         to right,
         #4731D3 0%,
-        #4731D3 60%,
-        #CBF281 60%,
+        #4731D3 70%,
+        #CBF281 70%,
         #CBF281 100%
     );
-    display:flex;
-    flex-direction: column;
-    padding-left: 10rem;
 }
-
-
-
-@media screen and (max-width: 900px) {
-    .header {
-      background-color: #4731D3;
-    }
-  }

@@ -19,7 +19,7 @@ const onSubmit = (data) => {
     }; 
 
 
- // console.log(watch("example")); // watch input value by passing the name of it
+  console.log(watch("example")); // watch input value by passing the name of it
 
 console.log(errors)
 const firstName=watch("firstName")
@@ -28,7 +28,7 @@ return (
 <div className='border border-solid rounded-md flex flex-col items-center md:px-5 md:w-1/2 md:h-full bg-gradient-to-r from-blue-500 to-green-500 ... text-white'>
     <p className='py-2'>Selam {firstName}</p>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2 py-1 text-black">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2 py-3 text-black">
             <input type="text" name="name" {...register("firstName", {required:"*İsimsiz olmaz"})} placeholder="İsim Giriniz" className='border-solid border-2 border-blue-600'/>
                 <p className='text-red-600'>{errors.firstName?.message}</p>
             <input type="text" name="surname" {...register("lastName", {required:"*Soyismini unutma", minLength:{value:5,message:"Minimum 5 karakter olmalı"}, pattern: /^[A-Za-z]+$/i})} placeholder="Soyisim Giriniz" className='border-solid border-2 border-blue-600'/>

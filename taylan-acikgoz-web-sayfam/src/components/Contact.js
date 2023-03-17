@@ -7,14 +7,14 @@ import Forms from "../components/Form";
 
 function Contact(){
     return(
-        <div className="flex flex-col items-center gap-4 py-4">
-            <h2 className="text-[#4338CA] text-xl font-bold">Send me a message</h2>
-            <p className="text-xs md:text-lg">Got a question or proposal, or just want to say hello? Go ahead.</p>
-            <a href="mailto:acikgozta@gmail.com?subject=Mail from my Website" className="text-[#4731D3] md:text-xl">Send Email</a>
+        <div className="flex flex-col items-center gap-6 mx-auto py-20 border border-solid">
+            <h2 className="text-[#4338CA] text-5xl font-bold">Send me a message</h2>
+            <p className="text-xs md:text-2xl font-normal">Got a question or proposal, or just want to say hello? Go ahead.</p>
+            <a href="mailto:acikgozta@gmail.com?subject=Mail from my Website" className="text-[#4731D3] md:text-xl font-medium">Send Email</a>
             <div className="flex md:flex-row items-start gap-2 text-[#4731D3]">
             
                 <CiTwitter/>
-           
+        
             <a href="https://codepen.io/Thexhausted">
             <ImCodepen/>
             </a>

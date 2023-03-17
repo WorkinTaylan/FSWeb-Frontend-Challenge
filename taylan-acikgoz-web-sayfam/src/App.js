@@ -5,9 +5,11 @@ import Profil from './components/Profil';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import { useState,useEffect } from 'react';
+import {NavLink, Routes, Route} from "react-router-dom";
+import Form from "../src/components/Form";
 
 function App() {
-  const [theme, setTheme]=useState("null");
+  /*const [theme, setTheme]=useState("null");
 
   useEffect(()=>{
     if(window.matchMedia('(prefers-color-scheme:dark)').matches){
@@ -30,13 +32,15 @@ function App() {
   const handleThemeSwitcher=()=>{
     setTheme(theme==="dark"?"light":"dark");
   };
-
+/* dark mode kullanmak istersen returne bunu yerleştir.
+  <div className='dark:bg-black cursor-pointer'>
+  <div className='bg-gradient-to-r from-[#3730A3] to-[#CBF281]'>
+    <button onClick={handleThemeSwitcher} className='bg-black p-2 m-2 rounded-lg text-white'>Dark Mode</button>
+  </div>
+*/
   return (
-    <div className='dark:bg-black cursor-pointer'>
-      <div className='bg-gradient-to-r from-[#3730A3] to-[#CBF281]'>
-        <button onClick={handleThemeSwitcher} className='bg-black p-2 m-2 rounded-lg text-white'>Dark Mode</button>
-      </div>
-        
+    <div>
+      
       
       
     <Header/>
@@ -44,6 +48,8 @@ function App() {
     <Profil/>
     <Project/>
     <Contact/>
+
+    
     </div>
   );
 }
