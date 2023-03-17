@@ -7,8 +7,8 @@ import Forms from "../components/Form";
 
 function Contact(){
     return(
-        <div className="flex flex-col items-center gap-6 mx-auto py-20 border border-solid">
-            <h2 className="text-[#4338CA] text-5xl font-bold">Send me a message</h2>
+        <div className="flex flex-col items-center gap-6 mx-auto py-5 md:py-20 border border-solid">
+            <h2 className="text-[#4338CA] md:text-5xl font-bold">Send me a message</h2>
             <p className="text-xs md:text-2xl font-normal">Got a question or proposal, or just want to say hello? Go ahead.</p>
             <a href="mailto:acikgozta@gmail.com?subject=Mail from my Website" className="text-[#4731D3] md:text-xl font-medium">Send Email</a>
             <div className="flex md:flex-row items-start gap-2 text-[#4731D3]">

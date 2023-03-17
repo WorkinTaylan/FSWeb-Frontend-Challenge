@@ -8,7 +8,7 @@ function Header(){
                 <div className="text-white md:text-[#CBF281] font-bold md:text-3xl text-base md:leading-10 mt-9 text-center md:text-left">
                 Taylan Açıkgöz
                 </div>
-                <div className="mb-10 md:mb-16 flex flex-col items-center md:flex-row gap-20  ">
+                <div className="mb-10 md:mb-16 flex flex-col-reverse items-center md:flex-row gap-20  ">
                     <div className="flex flex-col justify-end items-center md:items-start self-stretch gap-9 md:w-8/12 ">
                         <h1 className="text-white md:text-[#CBF281] font-bold self-stretch text-xl md:text-5xl leading-2 md:leading-[3rem] text-center md:text-left ">
                         I am a Frontend Developer
@@ -27,7 +27,7 @@ function Header(){
                         </button>
                         </div>
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center">
+                    <div className=" w-32 md:w-1/2 flex justify-center items-center">
                         <img className="rounded-2xl shadow md:shadow-md max-h-96" src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="" />
                     </div>
                 </div>
