@@ -48,7 +48,7 @@ function Project(){
             {projects.map((proj) =>
             <div key={proj.id} className="w-full h-full flex flex-col md:flex-row justify-center items-center gap-4 shadow-xl bg-white rounded-xl mt-7">
                 <div className="box-border flex-none flex-grow-0 order-0 w-full md:w-5/12">
-                <img src={proj.img} alt="calculator app" className="md:w-full md:h-full rounded-l-xl"></img>
+                <img src={proj.img} alt="calculator app" className="w-full h-full md:w-full md:h-full rounded-l-xl"></img>
                 </div>
             
                 <div className="px-4 flex flex-col text-xs md:text-left md:text-base items-start py-2 md:py-14 md:gap-5 gap-2 ml-2 order-1 flex-grow md:pl-4 w-full md:w-3/5">
