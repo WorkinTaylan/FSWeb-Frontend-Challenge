@@ -40,21 +40,7 @@ const projects=[
     },
 
 ]
-
-/*
-<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-  <div class="md:flex">
-    <div class="md:shrink-0">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/building.jpg" alt="Modern building architecture">
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-      <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-    </div>
-  </div>
-</div>
-*/
+  
 function Project(){
     return(
         <div className="flex flex-col gap-7 mx-auto px-6 md:px-12 lg:px-24 xl:px-60 2xl:px-80 py-20 bg-[#CBF281]">
@@ -62,10 +48,10 @@ function Project(){
             {projects.map((proj) =>
             <div key={proj.id} className="w-full h-full flex flex-col md:flex-row justify-center items-center gap-4 shadow-xl bg-white rounded-xl mt-7">
                 <div className="box-border flex-none flex-grow-0 order-0 w-full md:w-5/12">
-                <img src={proj.img} alt="calculator app" className="w-full h-full md:w-full md:h-full rounded-l-xl"></img>
+                <img src={proj.img} alt="calculator app" className="md:w-full md:h-full rounded-l-xl"></img>
                 </div>
             
-                <div className="flex flex-col text-xs md:text-left md:text-base items-start py-2 md:py-14 md:gap-5 gap-2 ml-2 order-1 flex-grow md:pl-4 w-full md:w-3/5">
+                <div className="px-4 flex flex-col text-xs md:text-left md:text-base items-start py-2 md:py-14 md:gap-5 gap-2 ml-2 order-1 flex-grow md:pl-4 w-full md:w-3/5">
                     <h3 className='text-[#4338CA] text-2xl md:text-5xl font-bold'>{proj.title}</h3>
                     <p className='text-base'>{proj.paragraph}</p>
                     <div className="flex flex-wrap gap-1 text-white">

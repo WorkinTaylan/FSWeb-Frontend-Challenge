@@ -60,12 +60,13 @@ import { useState } from "react";
     return (
       
       <div className="mx-auto px-6 md:px-12 lg:px-24 xl:px-60 2xl:px-80 py-20 w-full h-1/5">
-        <div className=" border-red-600 flex flex-col md:flex-row justify-between items-start gap-8 w-full h-2/3">
-          <h2 className="text-[#4832D3] text-5xl font-bold">Skills</h2>
+        <div className="  flex flex-col md:flex-row justify-between items-start gap-8 w-full">
           
+          <h2 className="text-[#4832D3] text-5xl font-bold">Skills</h2>
+         
           <div className="flex flex-col items-start gap-8 font-medium text-[#777777]">
             {leftColumn.map((skill) => (
-              <div key={skill.id} className="flex flex-row gap-6 items-center">
+              <div key={skill.id} className="flex flex-row md:gap-6 gap-3 items-center">
                 <img
                   src={skill.img}
                   alt="Languages"
