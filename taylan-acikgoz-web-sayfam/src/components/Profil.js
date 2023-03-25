@@ -20,7 +20,7 @@ function Profil() {
                   <span>08.11.1994</span>
                   <span>Ankara</span>
                   <span>İTÜ Jeoloji Müh.</span>
-                  <span>FrontEnd Developer</span>
+                  <span>Frontend Developer</span>
                 </div>
               </div>
             </div>
@@ -35,8 +35,19 @@ function Profil() {
             
             <div className="flex flex-col items-start gap-6 self-stretch mix-blend-normal">
               <h4 className="font-medium lg:text-3xl text-white">About Me</h4>
-              <p className="font-normal text-lg leading-7">Workintech'le başlayan yolculuğuma emin adımlarla devam ediyorum. Bügüne kadar öğrendiğim birçok şey...Workintech'le başlayan yolculuğuma emin adımlarla devam ediyorum. Bügüne kadar öğrendiğim birçok şe</p>
-
+              <p className="font-normal text-lg leading-7">
+              I am a junior developer, have a passion for programming and eager to learn more about software development.
+              <br/>
+              <br/>
+              I am currently working on Node.js by exploring its features, reading documentation as it offers a flexible, powerful platform for building server-side applications. I have worked on various projects as part of my coursework, where I learned how to work collaboratively with other developers, communicate effectively, and solve problems efficiently.
+              <br/>
+              <br/>
+              In addition to my technical skills, I am a quick learner, have strong attention to detail, and am highly organized. I am excited to apply my skills and knowledge to a real-world setting and work as part of a team to create innovative solutions.
+              I am always eager to learn more and stay up-to-date with the latest trends and technologies in the industry.
+              <br/>
+              <br/>
+              I am excited about the opportunity to contribute my skills and passion to a dynamic team of developers and to continue to grow and develop as a software engineer. Thank you for considering my personal website.
+              </p>
             </div>
         </div>
         </div>
