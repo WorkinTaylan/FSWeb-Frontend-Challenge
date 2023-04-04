@@ -1,6 +1,5 @@
 import {CiTwitter} from "react-icons/ci";
 import { ImCodepen } from "react-icons/im";
-import {MdAlternateEmail} from "react-icons/md";
 import {FiCodesandbox} from "react-icons/fi";
 import {NavLink, Routes, Route} from "react-router-dom";
 import Forms from "../components/Form";
