@@ -1,4 +1,4 @@
-import "../Header.css" 
+import "../Header.css";
 
 function Header(){
 
@@ -28,7 +28,7 @@ function Header(){
                         </div>
                     </div>
                     <div className=" w-32 md:w-1/2 flex justify-center items-center">
-                        <img className="rounded-2xl shadow md:shadow-md max-h-96" src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="" />
+                        <img className="rounded-2xl shadow md:shadow-md max-h-96" src="https://img.freepik.com/premium-vector/coder-developer-concentrated-working-project-developing-programming-coding-technologies_569013-336.jpg?w=2000" alt="taylan profil pic" />
                     </div>
                 </div>
             </div>
