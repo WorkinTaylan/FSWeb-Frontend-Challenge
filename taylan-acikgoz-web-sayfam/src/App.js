@@ -1,12 +1,9 @@
-import './App.css';
-import Header from './components/Header';
-import Skills from './components/Skills';
-import Profil from './components/Profil';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import { useState,useEffect } from 'react';
-import {NavLink, Routes, Route} from "react-router-dom";
-import Form from "../src/components/Form";
+import "./App.css";
+import Header from "./components/Header";
+import Skills from "./components/Skills";
+import Profil from "./components/Profil";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   /*const [theme, setTheme]=useState("null");
@@ -40,16 +37,11 @@ function App() {
 */
   return (
     <div>
-      
-      
-      
-    <Header/>
-    <Skills/>
-    <Profil/>
-    <Project/>
-    <Contact/>
-
-    
+      <Header />
+      <Skills />
+      <Profil />
+      <Project />
+      <Contact />
     </div>
   );
 }

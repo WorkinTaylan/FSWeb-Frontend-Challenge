@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Sprint Challenge: Kişisel Web Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Proje Açıklaması
 
-## Available Scripts
+Tebrikler, Frontend konularını tamamladın. 
 
-In the project directory, you can run:
+Backend konularına geçmeden öğrendiğin her konuyu kullanarak kendin ile alakalı bir kişisel web sayfası yapacaksın. Bu senin Frontend konusunda ne seviyede olduğunu gösterecek. 
+Yaptığın siteyi kendi profil sayfanda da yayınlayacaksın. 
+Workintech programını tamamladığında şirketler yaptığın bu projeye de bakacaklar. O yüzden öğrendiğin her konuyu kullandığın, tam çalışır durumda, gramer hatası olmayan bir proje yapmanı tavsiye ederiz.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Talimatlar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Görev 1: Projenizin set-up'ını yapın.
 
-### `npm test`
+- [ ] `npx create-react-app web-sayfam` komutuyla boş bir çalışma başlatabilirsin.
+- [ ] Oluşturulan `web-sayfam` klasörüne girin.
+- [ ] `npm` i kullanarak, kullanacağın kütüphaneleri projene ekleyebilirsin. Örneğin:
+  - `yup`
+  - `axios`
+  - `cypress.io` v.b.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Görev 2: UI Tasarım
 
-### `npm run build`
+#### Bir tasarım dosyasından UI tarafını yapın.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Tasarımlar](https://www.figma.com/file/KlZDcmdseABJe9KHsPJ8lt/s12-design1?node-id=0%3A1) linkinde 3 farklı tasarım var. 
+Hangisini beğendi isen onu kullanabilirsin.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [*] Tasarımdaki her bir bölüm için ayrı bir component oluşturun.
+- [*] Her component'in style'ını ayarlayın
+- [*] Responsive tasarım oluşturun
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+!: Farklı cihaz boyutları için tasarımda biraz değişiklik yapmak isteyebilirsin.
 
-### `npm run eject`
+### Görev 2: Projenizi vercel'de yayınlayın.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Görev 3: Esnek Görevler
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Projenizde hünerlerini göstermek için ekstra yapabileceklerin.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [*] İletişim bölümünde form yapabilirsin.
+- [*] Form validasyonu 
+- [*] Formu şimdilik kendinize email olarak göndertebilirsiniz. (mailto: linki oluşturmak işine yarayacaktır. Bu [kaynaktan](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html) veya [buradan](https://www.webbilim.com/e-posta-link-mailto-baglanti-linki-nasil-olusturulur) nasıl kullanıldığını öğrenebilirsin. 
